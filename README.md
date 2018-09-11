@@ -29,6 +29,8 @@ Usage
 const xor = require('@chunpu/xor')
 ```
 
+Support Both Browsers and Node.js
+
 Api
 ---
 
@@ -43,6 +45,7 @@ var secret = 'secret'
 var value = '1024'
 
 console.log(xor.encrypt(value, secret))
+// => 'QlVRRg=='
 ```
 
 License
