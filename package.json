@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bytecode": "^1.1.0",
+    "min-base64": "^2.0.0",
+    "min-util": "^3.3.1"
+  },
+  "name": "@chunpu/xor",
+  "version": "1.0.0",
+  "main": "xor.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "chunpu",
+  "license": "ISC",
+  "keywords": [
+    "xor",
+    "utf8",
+    "encrypt",
+    "decrypt"
+  ],
+  "description": "XOR Encrypt and Decrypt, Support utf-8"
+}
